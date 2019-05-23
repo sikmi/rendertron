@@ -190,7 +190,7 @@ class Renderer {
           Page load event fired: ${pageLoadEventFired}
           Outstanding network requests: ${outstandingRequests.size}`);
         pageReady();
-      }, 10000);
+      }, 30000);
     });
   }
 
